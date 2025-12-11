@@ -106,7 +106,8 @@ document.getElementById("auditForm").onsubmit = async function (e) {
 
   document.getElementById("loading").classList.remove("hidden");
 
-  const res = await fetch("/api/audit/submit", {
+  const res = await fetch("https://promptprofit-backend.onrender.com/api/audit/submit", {
+ {
     method: "POST",
     headers: { "Content-Type": "application/json"},
     body: JSON.stringify({ answers: formData })
