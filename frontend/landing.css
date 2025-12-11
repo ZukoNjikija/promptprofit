@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, #3478f6, #5b8dfb);
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  max-width: 520px;
+  margin: 0 auto 30px;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  background: white;
+  color: #3478f6;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  opacity: 0.9;
+}
+
+.subtext {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grey {
+  background: #eef3ff;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  line-height: 2;
+  color: #444;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta-big {
+  background: #3478f6;
+  color: white;
+  padding: 18px 28px;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-big:hover {
+  opacity: 0.9;
+}

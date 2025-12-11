@@ -1,0 +1,21 @@
+{
+  "name": "promptprofit-audit-backend",
+  "version": "1.0.0",
+  "description": "Backend server for the PromptProfit AI Business Systems Audit",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.8",
+    "openai": "^4.0.0",
+    "puppeteer": "^22.6.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PromptProfit AI Audit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="audit-container">
+
+    <div class="progress">
+      <div id="progress-bar"></div>
+    </div>
+
+    <h1 class="title">AI Business Systems Audit</h1>
+
+    <form id="auditForm">
+
+      <div id="step-container"></div>
+
+      <div class="nav-buttons">
+        <button type="button" id="prevBtn" onclick="prevStep()">Back</button>
+        <button type="button" id="nextBtn" onclick="nextStep()">Next</button>
+        <button type="submit" id="submitBtn" style="display:none;">Submit Audit</button>
+      </div>
+
+    </form>
+
+    <div id="loading" class="loading hidden">
+      Generating Your Personalized Systems Report...
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
