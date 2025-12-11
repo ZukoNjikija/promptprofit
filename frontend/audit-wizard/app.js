@@ -1,3 +1,4 @@
+console.log("app.js is running");
 let currentStep = 0;
 
 const steps = [
